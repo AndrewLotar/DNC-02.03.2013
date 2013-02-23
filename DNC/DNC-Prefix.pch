@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'DNC' target in the 'DNC' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
