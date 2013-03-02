@@ -10,6 +10,7 @@
 		84B1E2C216D8B5C3008E3472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B1E2C116D8B5C3008E3472 /* Foundation.framework */; };
 		84B1E2C516D8B5C3008E3472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B1E2C416D8B5C3008E3472 /* main.m */; };
 		84B1E2C916D8B5C4008E3472 /* DNC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84B1E2C816D8B5C4008E3472 /* DNC.1 */; };
+		84B1E2D116D8B93D008E3472 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B1E2D016D8B93D008E3472 /* Cell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		84B1E2C416D8B5C3008E3472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84B1E2C716D8B5C3008E3472 /* DNC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DNC-Prefix.pch"; sourceTree = "<group>"; };
 		84B1E2C816D8B5C4008E3472 /* DNC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DNC.1; sourceTree = "<group>"; };
+		84B1E2CF16D8B93D008E3472 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		84B1E2D016D8B93D008E3472 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				84B1E2C416D8B5C3008E3472 /* main.m */,
+				84B1E2CF16D8B93D008E3472 /* Cell.h */,
+				84B1E2D016D8B93D008E3472 /* Cell.m */,
 				84B1E2C816D8B5C4008E3472 /* DNC.1 */,
 				84B1E2C616D8B5C3008E3472 /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B1E2C516D8B5C3008E3472 /* main.m in Sources */,
+				84B1E2D116D8B93D008E3472 /* Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
